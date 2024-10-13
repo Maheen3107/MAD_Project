@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signin_gradient_background"
+    tools:context=".SignInActivity">
+
+<ImageView
+android:id="@+id/logoImage"
+android:layout_width="100dp"
+android:layout_height="100dp"
+android:layout_centerHorizontal="true"
+android:layout_marginTop="100dp"
+android:src="@drawable/app_ic" />
+
+<TextView
+android:id="@+id/signinTitle"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/Instagram_text"
+android:textSize="30sp"
+android:textColor="@color/white"
+android:layout_below="@id/logoImage"
+android:layout_marginTop="20dp"
+android:layout_centerHorizontal="true"
+android:fontFamily="@font/aisha_script" />
+
+<EditText
+android:id="@+id/usernameEditText"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_below="@id/signinTitle"
+android:layout_margin="20dp"
+android:padding="10dp"
+android:background="@drawable/edit_text_background"
+android:hint="Username"
+android:textColorHint="#AAB8C2"
+android:textColor="@color/black"
+android:fontFamily="@font/roboto" />
+
+<EditText
+android:id="@+id/emailEditText"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_below="@id/usernameEditText"
+android:layout_margin="20dp"
+android:padding="10dp"
+android:background="@drawable/edit_text_background"
+android:hint="Email"
+android:textColorHint="#AAB8C2"
+android:textColor="@color/black"
+android:fontFamily="@font/roboto" />
+
+<EditText
+android:id="@+id/passwordEditText"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_below="@id/emailEditText"
+android:layout_margin="20dp"
+android:padding="10dp"
+android:background="@drawable/edit_text_background"
+android:hint="Password"
+android:textColorHint="#AAB8C2"
+android:textColor="@color/black"
+android:fontFamily="@font/roboto"
+android:inputType="textPassword" />
+
+<Button
+android:id="@+id/signinButton"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_below="@id/passwordEditText"
+android:layout_margin="20dp"
+android:backgroundTint="@color/blue"
+android:text="Sign Up"
+android:textColor="#FFFFFF"
+android:textSize="16sp"
+android:fontFamily="@font/roboto" />
+
+<TextView
+android:id="@+id/alreadyHaveAccountText"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Already have an account? Log in"
+android:textColor="@color/white"
+android:textSize="14sp"
+android:layout_below="@id/signinButton"
+android:layout_centerHorizontal="true"
+android:layout_marginTop="10dp"
+android:fontFamily="@font/roboto" />
+    </RelativeLayout>

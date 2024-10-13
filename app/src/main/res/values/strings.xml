@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">YourAppName</string>
+    <string name="logo_desc">Description of logo</string>
+    <string name="from_text">from</string> <!-- Add this line -->
+    <string name="meta_text">Meta</string>
+    <string name="Instagram_text">Instagram</string>
+    <string name="story">Story</string>
+    <string name="profile_icon">Profile Icon</string>
+    <string name="reel_icon">Reel Icon</string>
+    <string name="search_icon">Search Icon</string>
+    <string name="home_icon">Home Icon</string>
+    <string name="story1">Story 1</string>
+    <string name="story2">Story 2</string>
+    <string name="message_icon">Message Icon</string>
+    <string name="app_logo">App Logo</string>
+    <string name="post_image">Post Image</string>
+    <string name="heart">heart Image</string>
+    <string name="comment">comment Image</string>
+    <string name="share">Share</string>
+
+</resources>
