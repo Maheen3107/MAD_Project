@@ -1,11 +1,16 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.google.gms.google.services)
 }
 
 android {
     namespace = "com.example.instagram_clone"
     compileSdk = 34
+
+    buildFeatures{this
+        viewBinding = true
+    }
 
     defaultConfig {
         applicationId = "com.example.instagram_clone"
@@ -42,7 +47,13 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation(libs.firebase.auth)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation("de.hdodenhof:circleimageview:3.1.0")
+
+    implementation(platform("com.google.firebase:firebase-bom:33.4.0"))
+
+    implementation("com.google.firebase:firebase-auth")
 }
