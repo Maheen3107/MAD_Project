@@ -30,6 +30,9 @@ Download the google-services.json file and place it in the app/ directory of the
 Build and Run
 Sync Gradle files.
 Build and run the app on an emulator or Android device.
+
+
+
 📱 Screens and Their Purpose
 Screen	Purpose
 Main Screen	Initial screen with navigation options to login or view app features.
@@ -42,11 +45,18 @@ Profile Screen	Displays user’s profile details, including bio, posts, and edit
 Message Screen	Send and receive messages from other users.
 Edit Profile	Update profile information such as profile picture, bio, and username.
 Settings Screen	Access account preferences, privacy settings, and other configurations.
+
+
+
+
 🧩 Technical Challenges Faced
 Real-Time Data Sync: Managing data updates efficiently with Firebase.
 Authentication Flow: Secure login and session management using Firebase Auth.
 Media Handling: Handling image uploads and optimizing media display.
 Complex UI Navigation: Maintaining smooth transitions and intuitive navigation with Android Navigation Component.
+
+
+
 🌐 Future Plans
 Stories Feature: Add 24-hour temporary posts.
 Direct Messaging Enhancements: Add media sharing in messages.
