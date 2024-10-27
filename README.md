@@ -5,10 +5,15 @@ Project Overview
 The Instagram Clone app replicates core Instagram features, including:
 
 User Authentication: Sign up, login, and logout.
+
 Photo Sharing: Share images with other users.
+
 Social Interactions: Like and comment on posts.
+
 Messaging: Send and receive messages.
+
 Profile Customization: View and edit profile details.
+
 Goal
 This project aims to provide experience with Android development practices, real-time data sync, complex UI structures, and Firebase as the backend service.
 
@@ -17,18 +22,29 @@ To set up and run the Instagram Clone app on your local machine:
 
 Clone the Repository
 bash
-Copy code
+
 git clone https://github.com/Maheen3107/MAD_Project.git
+
 cd MAD_Project
+
 Open in Android Studio
+
 Open Android Studio.
+
 Choose Open an Existing Project and select the cloned repository.
+
 Set Up Firebase
+
 Go to the Firebase Console and create a new project.
+
 Add an Android app to your Firebase project.
+
 Download the google-services.json file and place it in the app/ directory of the project.
+
 Build and Run
+
 Sync Gradle files.
+
 Build and run the app on an emulator or Android device.
 
 
