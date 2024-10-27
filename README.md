@@ -52,16 +52,27 @@ Build and run the app on an emulator or Android device.
 
 
 📱 Screens and Their Purpose
+
 Screen	Purpose
+
 Main Screen	Initial screen with navigation options to login or view app features.
+
 Login Screen	Allows users to enter credentials and log into their account.
+
 Sign-Up Screen	New user registration with email, username, and password.
+
 Home Screen	Main feed displaying posts from users followed by the current user.
+
 Search Screen	Search for other users, explore content, and discover new accounts.
+
 Reels Screen	View short-form video content shared by users, similar to Instagram Reels.
+
 Profile Screen	Displays user’s profile details, including bio, posts, and edit options.
+
 Message Screen	Send and receive messages from other users.
+
 Edit Profile	Update profile information such as profile picture, bio, and username.
+
 Settings Screen	Access account preferences, privacy settings, and other configurations.
 
 
