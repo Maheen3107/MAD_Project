@@ -1,7 +1,9 @@
 Instagram Clone
+
 A mobile application inspired by Instagram, allowing users to share photos, view content, and connect with others through likes, comments, and messages. This project focuses on practicing Android development, real-time data handling, UI design, and Firebase integration.
 
 Project Overview
+
 The Instagram Clone app replicates core Instagram features, including:
 
 User Authentication: Sign up, login, and logout.
@@ -66,6 +68,7 @@ Settings Screen	Access account preferences, privacy settings, and other configur
 
 
 🧩 Technical Challenges Faced
+
 Real-Time Data Sync: Managing data updates efficiently with Firebase.
 Authentication Flow: Secure login and session management using Firebase Auth.
 Media Handling: Handling image uploads and optimizing media display.
@@ -74,13 +77,18 @@ Complex UI Navigation: Maintaining smooth transitions and intuitive navigation w
 
 
 🌐 Future Plans
+
 Stories Feature: Add 24-hour temporary posts.
 Direct Messaging Enhancements: Add media sharing in messages.
 Push Notifications: Real-time notifications for likes, comments, and messages.
 Enhanced Explore Section: Curate popular content for users to discover.
 Improved Profile Customization: Personal themes and highlights in the profile.
+
+
 📫 Contact
+
 Feel free to reach out for questions or collaboration!
 
 Maheen - maheen3107@example.com
+
 GitHub: Maheen3107
